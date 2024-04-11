@@ -1,0 +1,38 @@
+{
+    "name": "Create new version of custom app 'xdr_up'",
+    "description": "Performs build, packinging and other steps to create a new version of 'xdr_up'",
+    "prerequisites": "Connectivity to build server and source code repository",
+    "script": {
+      "shell": "bash",
+      "content": "#!/bin/sh \n echo $version"
+    },
+    "tags": [
+      "build",
+      "versioning",
+      "cicd"
+    ],
+    "parameters": [
+      {
+        "name": "hostname",
+        "description": "The hostname of the system to run this script action on",
+        "default": "buildserver01",
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 64
+      },
+      {
+        "name": "user",
+        "description": "The user connecting to the system to run this script action",
+        "default": "builduser01",
+        "type": "string",
+        "minLength": 8,
+        "maxLength": 32
+      },
+      {
+        "name": "version",
+        "description": "The version to tag this build with",
+        "type": "integer",
+        "minimum": 0
+      }
+    ]
+  }

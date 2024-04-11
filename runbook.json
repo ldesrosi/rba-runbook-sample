@@ -1,0 +1,12 @@
+{
+    "steps": [
+    {
+      "number" : 1,
+      "description" : "Log in to the system and install the latest updates provided by the OS vendor."
+    },
+    {
+      "number" : 2,
+      "description" : "To conclude this runbook, reboot the system."
+    }
+  ]
+}
