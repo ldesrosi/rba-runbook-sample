@@ -6,7 +6,7 @@
     },
     {
       "number" : 2,
-      "description" : "To conclude this runbook, reboot the system."
+      "description" : "To conclude this runbook, reboot the system again."
     }
   ]
 }
