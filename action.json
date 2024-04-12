@@ -1,7 +1,7 @@
 {
     "name": "Create new version of custom app 'xdr_up'",
     "description": "Performs build, packinging and other steps to create a new version of 'xdr_up'",
-    "prerequisites": "Connectivity to build server and source code repository!",
+    "prerequisites": "Connectivity to build server and source code repository.",
     "script": {
       "shell": "bash",
       "content": "#!/bin/sh \n echo $version"
